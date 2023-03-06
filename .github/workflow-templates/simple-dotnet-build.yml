@@ -1,4 +1,4 @@
-name: .Net Build Standard
+name: Simple Dotnet Build
 
 on:
   pull_request:
