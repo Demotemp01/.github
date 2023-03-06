@@ -1,0 +1,13 @@
+name: .Net Build Standard
+
+on:
+  pull_request:
+    branches: [ $default-branch ]
+  workflow_dispatch:
+    
+jobs:
+  build:
+    uses: Demotemp01/pipeline-templates/.github/workflows/build/simple-dotnet-build.yml@main
+    with:
+      dotnet-version: 6.0.x    
+       
