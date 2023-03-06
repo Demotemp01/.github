@@ -7,7 +7,7 @@ on:
     
 jobs:
   build:
-    uses: Demotemp01/pipeline-templates/.github/workflows/build/simple-dotnet-build.yml@main
+    uses: Demotemp01/pipeline-templates/.github/workflows/simple-dotnet-build.yml@main
     with:
       dotnet-version: 6.0.x    
        
