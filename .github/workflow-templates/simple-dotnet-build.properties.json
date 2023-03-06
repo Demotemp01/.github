@@ -3,8 +3,5 @@
     "description": "Template para basico de Build para projetos .Net",
     "categories": [
         "C#"
-    ],
-    "filePatterns": [
-        "Program\\.cs$"
     ]
 }
